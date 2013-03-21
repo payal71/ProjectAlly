@@ -6,35 +6,32 @@
 	echo $this->Html->script('jquery-ui.js');
 ?>
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-			</div>
-			<div class="span10">
+			<div class="span12">
 				<!-- Main content -->
 				<!-- form using cakephp -->
-				<legend>Add New Project</legend>
-				<table>
-					<?php
-						echo $this->Form->create('AddProject',array('class' => 'form-horizontal', 'url' => array('controller' => 'Project',
-																										'action' => 'addProject')));
-					?>
-					<tr>
-						<td align="right">Name</td>
-						<td><?php echo $this->Form->input('projectName', array('label' => false)); ?></td>
-					</tr>	
-					
-					<tr>
-						<td align="right">Project Description</td>
-						<td><?php echo $this->Form->textarea('projectDescription', array('label' => false));?></td>
-					</tr>	
-										
-					<tr>
-						<td></td>
-						<td><?php echo $this->Form->submit('Add Project',array('class' => 'btn'));?></td>
-					</tr>	
-					<?php echo $this->Form->end();?>	
-				</table>		
-									
+				<div class="span5">
+					<legend>Add New Project</legend>
+					<table>
+						<?php
+							echo $this->Form->create('AddProject',array('class' => 'form-horizontal', 'url' => array('controller' => 'Project',
+																											'action' => 'addProject')));
+						?>
+						<tr>
+							<td align="right">Name</td>
+							<td><?php echo $this->Form->input('projectName', array('label' => false)); ?></td>
+						</tr>	
+						
+						<tr>
+							<td align="right">Project Description</td>
+							<td><?php echo $this->Form->textarea('projectDescription', array('label' => false));?></td>
+						</tr>	
+											
+						<tr>
+							<td></td>
+							<td><?php echo $this->Form->submit('Add Project',array('class' => 'btn'));?></td>
+						</tr>	
+						<?php echo $this->Form->end();?>	
+					</table>		
+				</div>									
 			</div>
 		</div>

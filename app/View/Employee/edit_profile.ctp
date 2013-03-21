@@ -16,11 +16,7 @@
     </script>
 
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-			</div>
-			<div class="span10">
+			<div class="span12">
 				<!-- Main content -->
 				<!-- form using cakephp -->
 				<?php

@@ -20,10 +20,10 @@
 			<td><?php echo $eventType['EventType']['name']; ?>&nbsp;</td>
 	        <td><?php echo $eventType['EventType']['color']; ?>&nbsp;</td>
 			<td class="actions">
-				<a href="<?php echo $this->Html->url(array('action' => 'eventtype_view', $eventType['EventType']['id']));?>" class="btn"><i class="icon-eye-open"></i> <strong>View</strong></a>
+				<a href="<?php echo $this->Html->url(array('action' => 'eventtype_view', $eventType['EventType']['id']));?>" class="btn btn-small"><i class="icon-eye-open"></i> <strong>View</strong></a>
 	        </td>
 			<td class="actions">
-				<a href="<?php echo $this->Html->url(array('action' => 'eventtype_edit', $eventType['EventType']['id'])); ?>" class="btn"><i class="icon-edit"></i> <strong>Edit</strong></a>
+				<a href="<?php echo $this->Html->url(array('action' => 'eventtype_edit', $eventType['EventType']['id'])); ?>" class="btn btn-small"><i class="icon-edit"></i> <strong>Edit</strong></a>
 			</td>
 		</tr>
 	<?php endforeach; ?>

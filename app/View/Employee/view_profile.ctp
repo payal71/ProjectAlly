@@ -6,15 +6,9 @@
 	
 ?>
 		<div class="row-fluid">
-				<div class="span2">
-					<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-				</div>
-				
-				<div class="span10">
+				<div class="span12">
 				<!-- Main content -->
 				<!-- form using cakephp -->
-				<?php echo $this->Html->image($proUser['Profile']['userPhoto'], array('class' => 'img-polaroid'));?>
 				<h1><?php echo $proUser['Profile']['userName']; ?></h1><br/>
 				
 				<table cellpadding="15px">
@@ -61,9 +55,17 @@
 				<?php	
 					if(isset($proUser['Profile']['userHome'])){ 
 						echo $proUser['Profile']['userHome'];
-					}	 
 				?></td>
 				</tr>
 				</table>
+				<br/>
+				<?php 
+				if($this->Session->read('role') == 1){
+					if($proUser['Profile']['userRole'] != 2){
+						echo $this->Html->link('Designate as Admin', array('action' => 'designateAdmin', $proUser['Profile']['id']), array('class' => 'btn btn-danger'));
+					}
+				}
+			}
+			?>
 			</div>
 		</div>

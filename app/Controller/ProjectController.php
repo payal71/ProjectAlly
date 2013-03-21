@@ -36,6 +36,11 @@
 				}
 			}
 		}
+		public function deleteProject($id = null) {
+			$this->AddProject->id = $id;
+			$this->AddProject->delete($id);
+			$this->redirect(array('controller' => 'Project', 'action' => 'listProject'));
+		}
 		
 		public function addMember($id = null) {
 

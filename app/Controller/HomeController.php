@@ -45,7 +45,7 @@ class HomeController extends AppController {
  *
  * @var array
  */
-	public $uses = array('UserInfo', 'Profile','AddProject');
+	public $uses = array('UserInfo', 'Profile', 'AddProject', 'Event', 'EventType');
 
 /**
  * Displays a view
@@ -84,11 +84,12 @@ class HomeController extends AppController {
 	}
 	
 	public function HomePage() {
-
+		$this->set('leaveRequests', $this->Profile->find('all', array('conditions' => array('Profile.leave_request !=' => 0))));
+		$this->set('leaveDetails', $this->Event->find('all'));
 	}
 	
 	public function test() {
-		echo "you successfully registered with projectally....kindly wait till admin approves yours request.";
+		echo "You successfully registered with projectally....kindly wait till admin approves yours request.";
 	}
 	
 	public function message() {
@@ -103,4 +104,29 @@ class HomeController extends AppController {
 		$this->set(compact('title_for_layout'));
 		$this->set('projects', $this->AddProject->find('all'));
 	}
+	
+	public function approve_request($id = null, $profile_id = null, $days = null){
+		if($days == 0){
+			$this->Profile->updateAll(array('leave_taken' => 'Profile.leave_taken + 0.5', 
+											'leave_request' => 'Profile.leave_request - 1'), 
+									array('Profile.id' => $profile_id));
+			
+		} else{
+			$this->Profile->updateAll(array('leave_taken' => 'Profile.leave_taken +'.$days, 
+											'leave_request' => 'Profile.leave_request - 1'), 
+									array('Profile.id' => $profile_id));
+		}
+		$this->Event->updateAll(array('status' => "'".Approved."'"), 
+								array('Event.id' => $id));
+		$this->redirect(array('controller' => 'Home', 'action' => 'HomePage'));
+	}
+	
+	public function decline_request($id = null){
+		$this->Profile->updateAll(array('leave_request' => 'Profile.leave_request - 1'), 
+								array('Profile.id' => $profile_id));
+		$this->Event->updateAll(array('status' => "'".Declined."'"), 
+								array('Event.id' => $id));
+		$this->redirect(array('controller' => 'Home', 'action' => 'HomePage'));
+	}
+	
 }
