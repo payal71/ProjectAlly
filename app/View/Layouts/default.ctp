@@ -20,8 +20,11 @@
 <?php echo $this->Html->css('bootstrap-responsive.min.css'); ?>
 <?php echo $this->Html->css('style.css'); ?>
 <?php echo $this->Html->css('bootstap-combined-min.css'); ?>
-
 <?php echo $this->Html->script('libs/modernizr-2.5.3-respond-1.1.0.min'); ?>
+
+  <link rel="stylesheet" href="http://blueimp.github.com/Bootstrap-Image-Gallery/css/bootstrap-image-gallery.min.css">
+  <link rel="stylesheet" href="<?php echo Router::url('/', true) ?>file_upload/css/jquery.fileupload-ui.css">
+
 
 <?php
 	echo $this->fetch('meta');

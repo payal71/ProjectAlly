@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 		<?php 
-		$members = $project['AddProject']['projectMembers'];
+		$members = $project['AddProject']['project_members'];
 		if($members == null){
 			echo "No members assigned yet..!";
 		}
@@ -23,7 +23,7 @@
 								if ($addedmember == $user['Profile']['id'])
 								{
 									?><tr> <td> 
-										<?php echo $this->Html->link($user['Profile']['userName'], 
+										<?php echo $this->Html->link($user['Profile']['user_name'], 
 													array('controller' => 'Employee', 'action' => 'viewProfile', $user['Profile']['id'])); ?>
 									   </td> </tr>			
 									<?php 

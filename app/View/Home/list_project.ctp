@@ -6,11 +6,7 @@
 	
 ?>
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-			</div>
-			<div class="span10">
+			<div class="span12">
 				<!-- Main content -->
 				<!-- form using cakephp -->
 				<table class="table table-hover">
@@ -30,7 +26,7 @@
 								<td> <?php //echo $this->Html->link($project['AddProject']['projectName'], 
 										   //				array('controller' => 'Home', 'action' => 'viewProject', $project['AddProject']['id'])); 
 										   
-									echo $project['AddProject']['projectName'];
+									echo $project['AddProject']['project_name'];
 								?> 
 								</td>
 								<td> <?php echo $project['AddProject']['id'];?> </td>

@@ -5,36 +5,27 @@
 	echo $this->Html->css('jquery.validate.css');
 ?>
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<a href="#myModal" role="button" class="btn" data-toggle="modal">Login</a>
-				<!-- Modal -->
-				<div style="display: none;" class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-header">
-				    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
-				    <h3 id="myModalLabel">Login</h3>
-				  </div>
-				  <div class="modal-body">
+			<div class="span6">
+				<!-- LOGIN FORM -->
 				  	<?php 
-						$options = array(
-						'label' => false,
-						'placeholder' => 'Email',
-						'div' => array(
-							'class' => 'controls'
-							)
-						);
-					
-					
 					echo $this->Form->create('UserInfo',array('class' => 'form-horizontal',
 												'url' => array('controller' => 'Home',
 													'action' => 'authenticate')));
+					?>
+					<legend> Log in to Project<span style="color: #52a8ec"><strong>Ally</strong></span></legend>
+					<?php 
 					echo "<div class=\"control-group\">";
-						echo $this->Form->label('inputEmail', 'Email', array('class' => 'control-label'));
-						echo $this->Form->input('inputEmail',$options);
+						echo $this->Form->label('input_email', 'Email', array('class' => 'control-label'));
+						echo $this->Form->input('input_email',array('label' => false,
+																	'placeholder' => 'Email',
+																	'div' => array(
+																		'class' => 'controls'
+																		)
+																	));
 					echo "</div>";
 					echo "<div class=\"control-group\">";
-						echo $this->Form->label('inputPassword', 'Password', array('class' => 'control-label'));
-						echo $this->Form->input('inputPassword',array('label' => false,
+						echo $this->Form->label('input_password', 'Password', array('class' => 'control-label'));
+						echo $this->Form->input('input_password',array('label' => false,
 																  'placeholder' => 'Password',
 																  'type' => 'password',
 																  'div' => array(
@@ -44,7 +35,6 @@
 					echo "</div>";
 					echo "<div class=\"control-group\">";
 					echo "<div class=\"controls\">";
-						//echo $this->Form->label(null,'Remember me',array('class' => 'checkbox'));
 					?>
 					<label class="checkbox">
 					<?php 
@@ -56,13 +46,9 @@
 					echo "</div>";
 					echo "</div>";
 					?>		
-				  </div>
-				</div>
 			</div>
-			<div class="span10">
-				<!-- Main content -->
-				<!-- form using cakephp -->
-
+			<div class="span6">
+				<!-- REGISTRATION FORM -->
 				<?php
 				 $options = array(
 					'label' => false,
@@ -81,40 +67,42 @@
 					<table>
 					<tr>
 						<td align="right">Name</td>
-						<td><?php echo $this->Form->input('userName',array('label' => false,
+						<td><?php echo $this->Form->input('user_name',array('label' => false,
 																		   'type' => 'text')); ?>
 						</td>
 					</tr>
 					<tr>
 						<td align="right">Company</td>
-						<td><?php echo $this->Form->input('companyName',array('label' => false,
+						<td><?php echo $this->Form->input('company_name',array('label' => false,
 																		   'type' => 'text')); ?>
 						</td>
 					</tr>
 					<tr>
 						<td align="right">Designation</td>
-						<td><?php echo $this->Form->input('userRole',array('label' => false,
+						<td><?php echo $this->Form->input('user_role',array('label' => false,
 																		   'options' => $user_role)); ?>
 						</td>
 					</tr>
 					<tr>
 						<td align="right">Email</td>
-						<td><?php echo $this->Form->input('inputEmail',array('label' => false,
+						<td><?php echo $this->Form->input('input_email',array('label' => false,
 																		   'type' => 'text')); ?>
 						</td>
 					</tr>
 					<tr>
 						<td align="right">Password</td>
-						<td><?php echo $this->Form->input('inputPassword',array('label' => false,
+						<td><?php echo $this->Form->input('input_password',array('label' => false,
 																				'type' => 'password')); ?>
 						</td>
 					</tr>
 					<tr>
 						<td align="right">Confirm Password</td>
-						<td><?php echo $this->Form->input('confirmPassword',array('label' => false,
+						<td><?php echo $this->Form->input('confirm_password',array('label' => false,
 																				'type' => 'password')); ?>
 						</td>
 					</tr>
+						<?php echo $this->Form->input('created',array('type' => 'hidden', 'value' => "CakeTime::format('Y-m-d H:i:s', time())")); ?>
+						<?php echo $this->Form->input('modified',array('type' => 'hidden', 'value' => "CakeTime::format('Y-m-d H:i:s', time())")); ?>
 					<tr>
 						<td></td>
 						<td><?php echo $this->Form->submit('Sign Up',array('class' => 'btn')); ?></td>
@@ -130,12 +118,12 @@
 					//requirement.
 					/*echo $this->Form->create('',array('class' => 'form-horizontal'));
 					echo "<div class=\"control-group\">";
-						echo $this->Form->label('inputEmail', 'Email', array('class' => 'control-label'));
-						echo $this->Form->input('inputEmail',$options);
+						echo $this->Form->label('input_email', 'Email', array('class' => 'control-label'));
+						echo $this->Form->input('input_email',$options);
 					echo "</div>";
 					echo "<div class=\"control-group\">";
-						echo $this->Form->label('inputPassword', 'Password', array('class' => 'control-label'));
-						echo $this->Form->input('inputPassword',array('label' => false,
+						echo $this->Form->label('input_password', 'Password', array('class' => 'control-label'));
+						echo $this->Form->input('input_password',array('label' => false,
 																  'placeholder' => 'Password',
 																  'type' => 'password',
 																  'div' => array(
@@ -163,15 +151,15 @@
 				<!-- 
 				<form class="form-horizontal">
 				  <div class="control-group">
-				    <label class="control-label" for="inputEmail">Email</label>
+				    <label class="control-label" for="input_email">Email</label>
 				    <div class="controls">
-				      <input type="text" id="inputEmail" placeholder="Email">
+				      <input type="text" id="input_email" placeholder="Email">
 				    </div>
 				  </div>
 				  <div class="control-group">
-				    <label class="control-label" for="inputPassword">Password</label>
+				    <label class="control-label" for="input_password">Password</label>
 				    <div class="controls">
-				      <input type="password" id="inputPassword" placeholder="Password">
+				      <input type="password" id="input_password" placeholder="Password">
 				    </div>
 				  </div>
 				  <div class="control-group">
