@@ -8,8 +8,14 @@
 				echo '<br/>';
 				echo $milestone['Milestone']['due_date'];
 				echo '<br/>';
-				
+		
 			}
 		?>
+		<div class="well">
+		<?php 
+			echo $this->element('comments/index', array('model' => 'Milestone', 'foreignKey' => '2'));
+		?>
+		</div>
 	</div>
+	
 </div>

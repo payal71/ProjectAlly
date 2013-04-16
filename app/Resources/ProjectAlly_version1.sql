@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.4.10.1
+-- version 3.3.9
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 24, 2013 at 02:49 PM
--- Server version: 5.5.20
--- PHP Version: 5.3.10
+-- Generation Time: Apr 10, 2013 at 05:59 PM
+-- Server version: 5.5.8
+-- PHP Version: 5.3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -33,6 +32,11 @@ CREATE TABLE IF NOT EXISTS `attachments` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
+--
+-- Dumping data for table `attachments`
+--
+
+
 -- --------------------------------------------------------
 
 --
@@ -53,15 +57,44 @@ CREATE TABLE IF NOT EXISTS `bugs_and_features` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `bugs_and_features`
 --
 
 INSERT INTO `bugs_and_features` (`id`, `reported_by`, `status`, `priority_id`, `assigned_to`, `milestone_id`, `title`, `description`, `estimate`, `project_id`, `created`, `modified`) VALUES
-(10, '1', '3', 2, 5, 1, 'Sample ticket', 'Ticket made for testing...', 3, 4, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(11, '1', '3', 4, 2, 1, 'Sample ticket 2', 'Ticket for testing 2', 1, 4, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(10, '1', '3', 2, 5, 1, 'Sample ticket 3', 'Ticket made for testing...', 3, 0, '0000-00-00 00:00:00', '2013-03-29 20:13:32'),
+(11, '6', '3', 4, 2, 1, 'Sample ticket 2', 'Ticket for testing 3', 1, 0, '0000-00-00 00:00:00', '2013-03-30 12:14:22'),
+(12, '1', '3', 2, 2, 2, 'UI fixes', 'fixing UI for every page', 3, 4, '2013-03-29 18:21:09', '2013-03-29 18:21:09'),
+(13, '1', '3', 1, 4, 2, 'Back end fixes', 'test the backend of all pages again', 3, 4, '2013-03-29 18:22:50', '2013-03-29 18:22:50');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `comments`
+--
+
+CREATE TABLE IF NOT EXISTS `comments` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `model` varchar(255) NOT NULL,
+  `foreign_key` int(10) unsigned NOT NULL,
+  `comment` text NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `creator_id` int(10) unsigned DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `modifier_id` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `comments`
+--
+
+INSERT INTO `comments` (`id`, `model`, `foreign_key`, `comment`, `created`, `creator_id`, `modified`, `modifier_id`) VALUES
+(1, 'Milestone', 2, 'testtest', '2013-04-10 17:29:23', NULL, '2013-04-10 17:29:23', NULL),
+(2, 'Milestone', 2, 'hello how are you', '2013-04-10 17:32:21', NULL, '2013-04-10 17:32:21', NULL),
+(3, 'Milestone', 2, 'this is for testing', '2013-04-10 17:58:31', NULL, '2013-04-10 17:58:31', NULL);
 
 -- --------------------------------------------------------
 
@@ -105,7 +138,7 @@ CREATE TABLE IF NOT EXISTS `events` (
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=56 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=57 ;
 
 --
 -- Dumping data for table `events`
@@ -114,7 +147,8 @@ CREATE TABLE IF NOT EXISTS `events` (
 INSERT INTO `events` (`id`, `event_type_id`, `profile_id`, `title`, `details`, `start`, `end`, `all_day`, `status`, `active`, `created`, `modified`) VALUES
 (49, 8, 1, 'test nine', 'test nine', '2013-03-23 01:46:13', '2013-03-26 01:46:13', 0, 'In Progress', 1, '2013-03-21 00:00:00', '2013-03-21 00:00:00'),
 (52, 8, 6, 'test eleven', 'test ten ', '2013-03-23 05:30:42', '2013-03-24 05:30:42', 0, 'Approved', 1, '2013-03-21 00:00:00', '2013-03-21 00:00:00'),
-(46, 8, 5, 'test one', 'test one', '2013-03-22 12:52:39', '2013-03-23 12:52:39', 1, 'Approved', 1, '2013-03-21 00:00:00', '2013-03-21 00:00:00');
+(46, 8, 5, 'test one', 'test one', '2013-03-22 12:52:39', '2013-03-23 12:52:39', 1, 'Approved', 1, '2013-03-21 00:00:00', '2013-03-21 00:00:00'),
+(56, 8, 6, 'test ten', 'ten test', '2013-03-22 17:36:55', '2013-03-31 17:36:55', 0, 'In Progress', 1, '2013-03-30 12:07:19', '2013-03-30 12:07:19');
 
 -- --------------------------------------------------------
 
@@ -157,15 +191,16 @@ CREATE TABLE IF NOT EXISTS `milestones` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `milestones`
 --
 
 INSERT INTO `milestones` (`id`, `responsible_user`, `title`, `due_date`, `planner`, `description`, `project_id`, `created`, `modified`) VALUES
-(1, 2, 'testing', '2013-03-28', '0', 'sample desc', 4, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(2, 2, 'Testing 2', '2013-03-29', '0', 'Sample Milestone for testing', 5, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(1, 1, 'testing', '2013-03-28', '0', 'Sample description for the project is written in this field. This field is for testing purpose only. Please dont regard this setriously', 4, '0000-00-00 00:00:00', '2013-03-29 19:27:35'),
+(2, 4, 'Testing 2', '2013-05-17', '0', 'Sample Milestone for testing 3', 4, '0000-00-00 00:00:00', '2013-03-29 19:25:59'),
+(3, 6, 'For testin created time', '2013-03-11', '0', 'Testing', 4, '2013-03-29 19:35:43', '2013-03-29 19:35:43');
 
 -- --------------------------------------------------------
 
@@ -228,7 +263,7 @@ INSERT INTO `profile` (`id`, `user_name`, `company_name`, `user_role`, `input_em
 (2, 'Ankur Pandit', 'Aecor', 2, 'ankur@gmail.com', 'testtest', 'testtest', 1, 0, 2, '11/27/1991', '', '', 'abc, xyz', '', '', '', '0000-00-00 00:00:00', '2013-03-24 14:31:52'),
 (4, 'Aakash', 'Aecor', 2, 'aakash@aecor.com', 'testtest', 'testtest', 1, 0, 1, '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (5, 'Ruchi Shah', 'Aecor', 3, 'ruchi@gmail.com', 'testtest', 'testtest', 1, 0, 21, '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(6, 'Payal Shah', 'Aecor', 4, 'payal@gmail.com', 'testtest', 'testtest', 1, 0, 10, '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(6, 'Payal Shah', 'Aecor', 4, 'payal@gmail.com', 'testtest', 'testtest', 1, 1, 10, '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -264,7 +299,17 @@ CREATE TABLE IF NOT EXISTS `status` (
   `id` int(2) NOT NULL AUTO_INCREMENT,
   `type` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `status`
+--
+
+INSERT INTO `status` (`id`, `type`) VALUES
+(1, 'Completed'),
+(2, 'In Progress'),
+(3, 'Scheduled'),
+(4, 'Rescheduled');
 
 -- --------------------------------------------------------
 
@@ -278,8 +323,15 @@ CREATE TABLE IF NOT EXISTS `uploads` (
   `size` int(11) NOT NULL,
   `bugs_and_features_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=22 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=15 ;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+--
+-- Dumping data for table `uploads`
+--
+
+INSERT INTO `uploads` (`id`, `attachment`, `size`, `bugs_and_features_id`) VALUES
+(10, 'bug-id_10_2013-03-28-15-08-11.jpg', 655113, 10),
+(11, 'bug-id_10_2013-03-28-15-08-34.jpg', 98286, 10),
+(12, 'bug-id_10_2013-03-28-15-16-29.jpg', 655113, 10),
+(13, 'bug-id_10_2013-03-28-16-32-50.jpg', 98286, 10),
+(14, 'bug-id_10_2013-03-28-16-40-57.jpg', 153919, 10);
