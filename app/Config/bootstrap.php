@@ -183,4 +183,4 @@ CakeLog::config('error', array(
 
 CakePlugin::load('DebugKit');
 CakePlugin::load('AssetCompress');
-CakePlugin::load('FullCalendar');
+CakePlugin::load('FileUpload');

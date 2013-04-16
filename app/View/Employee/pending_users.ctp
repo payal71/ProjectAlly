@@ -6,11 +6,7 @@
 	
 ?>
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-			</div>
-			<div class="span10">
+			<div class="span12">
 				<?php 	//echo $this->element('crumbs'); ?>
 				<!-- Main content -->
 				<!-- form using cakephp -->
@@ -30,9 +26,9 @@
 						if($user['Profile']['status'] == '1'){
 						?> 
 							<tr>
-								<td> <?php echo $this->Html->link($user['Profile']['userName'], 
+								<td> <?php echo $this->Html->link($user['Profile']['user_name'], 
 															array('controller' => 'Employee', 'action' => 'viewProfile', $user['Profile']['id'])); ?> </td>
-								<td> <?php echo $user['Profile']['companyName'];?> </td>
+								<td> <?php echo $user['Profile']['company_name'];?> </td>
 								<td> <?php echo $this->Html->tag('span', 'Approved', array('class' => 'label label-success')); ?> </td>
 								<td></td>
 								<td>
@@ -48,9 +44,9 @@
 						else{
 							?> 
 							<tr>
-								<td> <?php echo $this->Html->link($user['Profile']['userName'], 
+								<td> <?php echo $this->Html->link($user['Profile']['user_name'], 
 															array('controller' => 'Employee', 'action' => 'viewProfile', $user['Profile']['id'])); ?> </td>
-								<td> <?php echo $user['Profile']['companyName'];?> </td>
+								<td> <?php echo $user['Profile']['company_name'];?> </td>
 								<td> <?php echo $this->Html->tag('span', 'Pending', array('class' => 'label label-important')); ?> </td>
 								<td>
 									<i class="icon-ok"></i>

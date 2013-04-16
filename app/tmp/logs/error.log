@@ -6877,3 +6877,1142 @@
 #3 F:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EmployeeController), Object(CakeRequest), Object(CakeResponse))
 #4 F:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-03-22 08:50:42 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 08:50:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 08:50:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:43:34 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:43:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:43:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:53:24 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:53:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:53:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:53:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:54:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 16:57:26 Error: [MissingActionException] Action ProjectController::js() could not be found.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-22 17:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:08:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:09:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:09:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:09:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:09:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:10:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:10:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:10:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:04 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:20 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:14:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:15:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:16:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:19:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:20:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:21:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:23:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:23:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:24:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:24:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:24:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:24:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:28:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 17:29:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:06:31 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\ProjectAlly\app\View\Project\new_milestone.ctp, line 39]
+2013-03-22 18:06:31 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ',' or ';'
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 39, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 39, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-22 18:06:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:26:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:27:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:29:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:31:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:31:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:34:31 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ')' in [C:\wamp\www\ProjectAlly\app\View\Project\new_milestone.ctp, line 41]
+2013-03-22 18:34:31 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ')'
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-22 18:34:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:35:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:38:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:42:45 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ')' in [C:\wamp\www\ProjectAlly\app\View\Project\new_milestone.ctp, line 41]
+2013-03-22 18:42:45 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ')'
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 41, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-22 18:42:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:46:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 18:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:24:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:24:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:25:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:25:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:25:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:33:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:34:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:50:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:51:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:51:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:54:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:58:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 19:58:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:05:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:05:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:05:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:05:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:06:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:07:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:08:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:09:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:09:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-22 20:11:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 08:48:31 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 08:48:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 08:48:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:18:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:18:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:20:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:20:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:21:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:21:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:21:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:22:19 Error: [MissingViewException] View file "C:\wamp\www\ProjectAlly\app\View\Project\new_ticket.ctp" is missing.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-03-23 09:22:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:24:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:25:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 09:59:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:05:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:18:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:32:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:33:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:33:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:38:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:39:39 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\ProjectAlly\app\View\Project\new_ticket.ctp, line 25]
+2013-03-23 10:39:39 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 25, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 25, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 10:39:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:41:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:49:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:49:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:52:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:55:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:55:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:55:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:56:19 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\ProjectAlly\app\View\Project\new_ticket.ctp, line 34]
+2013-03-23 10:56:19 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 10:56:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:56:28 Error: [MissingHelperException] Helper class SessionsHelper could not be found.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Sessions')
+#1 C:\wamp\www\ProjectAlly\lib\Cake\View\View.php(812): HelperCollection->__isset('Sessions')
+#2 C:\wamp\www\ProjectAlly\app\View\Project\new_ticket.ctp(34): View->__get('Sessions')
+#3 C:\wamp\www\ProjectAlly\lib\Cake\View\View.php(920): include('C:\wamp\www\Pro...')
+#4 C:\wamp\www\ProjectAlly\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\Pro...', Array)
+#5 C:\wamp\www\ProjectAlly\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\Pro...')
+#6 C:\wamp\www\ProjectAlly\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-23 10:56:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:56:39 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\ProjectAlly\app\View\Project\new_ticket.ctp, line 34]
+2013-03-23 10:56:39 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 34, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 10:56:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:57:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:59:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 10:59:38 Error: [MissingActionException] Action ProjectController::js() could not be found.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-23 11:02:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:05:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:11:05 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:11:05 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:11:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:12:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:12:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:12:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:13:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:13:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:13:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:13:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:13:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:13:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:14:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:14:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:14:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:15:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:15:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:15:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:15:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:15:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:15:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:15:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 101]
+2013-03-23 11:15:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 101, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:15:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:16:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:18:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:21:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:21:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:22:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:26:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:30:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:32:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:32:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:34:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:35:14 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php, line 125]
+2013-03-23 11:35:14 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 125)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\Pro...', 125, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\Pro...', 125, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-23 11:35:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:35:44 Error: [MissingTableException] Table bugs for model Bug was not found in datasource default.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Model\Model.php(3180): Model->setSource('bugs')
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Model\Model.php(1178): Model->schema()
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Model\Model.php(1141): Model->_setAliasData(Array)
+#4 C:\wamp\www\ProjectAlly\lib\Cake\Model\Model.php(1617): Model->set(Array)
+#5 C:\wamp\www\ProjectAlly\app\Controller\ProjectController.php(125): Model->save(Array)
+#6 [internal function]: ProjectController->newTicket()
+#7 C:\wamp\www\ProjectAlly\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#8 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-03-23 11:35:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:36:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:43:35 Error: [MissingActionException] Action ProjectController::index() could not be found.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-23 11:43:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:44:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:44:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:44:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 11:44:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:20 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:09:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:10:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:10:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:11:05 Error: [MissingActionException] Action ProjectController::listMilestone() could not be found.
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ProjectAlly\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-23 19:11:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:11:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:11:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:12:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:12:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:12:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:13:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:13:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:13:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:13:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:40:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:40:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 19:47:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 20:16:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 20:16:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 20:16:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 20:19:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-23 20:20:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:13:06 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:13:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:13:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:19:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:19:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:19:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:20:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:20:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:20:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:20:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:20:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:25:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:19 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:27:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:28:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:28:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:29:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:30:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:31:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:31:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 13:31:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:24:58 Error: [MissingControllerException] Controller class ProjectallyController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:28:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:28:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:31:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:48:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:48:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 14:48:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:40:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:40:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:40:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:45:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:45:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:46:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:51:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:51:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:52:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:54:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:55:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:55:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:57:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:57:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:57:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:59:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 15:59:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:20:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:21:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:22:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:22:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:24:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:27:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:28:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:28:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:28:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:30:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:31:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:33:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:36:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:37:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:45 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:45 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:45 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:45 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:49 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:49 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:50 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:50 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:54 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:54 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:54 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:54 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:55 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:55 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:40:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:40:55 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\ProjectAlly\app\View\Elements\home\header.ctp, line 87]
+2013-03-24 16:40:55 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\ProjectAlly\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#2 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Pro...', 87, Array)
+#3 C:\wamp\www\ProjectAlly\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-24 16:42:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:42:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:45:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:45:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 16:57:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:33:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:33:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:33:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:38:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:44:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:44:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:44:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:48:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:58:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 17:59:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 18:01:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-24 18:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\ProjectAlly\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

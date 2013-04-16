@@ -21,12 +21,12 @@
 					?>
 					<tr>
 						<td align="right">Name</td>
-						<td><?php echo $this->Form->input('projectName', array('label' => false)); ?></td>
+						<td><?php echo $this->Form->input('project_name', array('label' => false)); ?></td>
 					</tr>	
 					
 					<tr>
 						<td align="right">Project Description</td>
-						<td><?php echo $this->Form->textarea('projectDescription', array('label' => false));?></td>
+						<td><?php echo $this->Form->textarea('project_description', array('label' => false));?></td>
 					</tr>	
 										
 					<tr>

@@ -6,15 +6,13 @@
 	
 ?>
 		<div class="row-fluid">
-			<div class="span2">
-				<!-- Sidebar content -->
-				<?php echo $this->element('sidebar/fix_side'); ?>
-			</div>
-			<div class="span10">
-				<!-- Main content -->
-				<?php
+			<div class="span12">
+				<!-- MAIN CONTENT -->
+				<div class="span3">
+					<?php
 					//file used View/Element/view_member.ctp 					
 					echo $this->element('view_members'); 
-				?>
+					?>
+				</div>
 			</div>
 		</div>
