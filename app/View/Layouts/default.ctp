@@ -17,6 +17,9 @@
 <?php echo $this->Html->meta(array('name' => 'author', 'content' => 'Hardik Shah')); ?>
 <?php echo $this->Html->meta(array('name' => 'viewport', 'content' => 'width=device-width')); ?>
 <?php echo $this->Html->css('bootstrap.min.css'); ?>
+<?php echo $this->Html->css('boot-business.css'); ?>
+<?php echo $this->Html->css('font-awesome.css'); ?>
+<?php echo $this->Html->css('font-awesome-ie7.css'); ?>
 <?php echo $this->Html->css('bootstrap-responsive.min.css'); ?>
 <?php echo $this->Html->css('style.css'); ?>
 <?php echo $this->Html->css('bootstap-combined-min.css'); ?>
@@ -32,13 +35,6 @@
 ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-<style>
-body {
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-right: 20px;
-}
-</style>
     
 </head>
 <body>
@@ -49,8 +45,11 @@ body {
 	</header>
 
 		<?php echo $this->Session->flash(); ?>
-
-		<?php echo $this->fetch('content'); ?>
+		<div class="content">
+			<div class="container">
+			<?php echo $this->fetch('content'); ?>
+			</div>
+		</div>
 	<footer>
 		<?php 
 			echo $this->element('home/footer');			
@@ -58,7 +57,7 @@ body {
 	</footer>
 
 
-<?php echo $this->Html->script(array('libs/bootstrap/bootstrap.min','plugins','script')); ?>
+<?php echo $this->Html->script(array('libs/bootstrap/bootstrap.min','plugins','script','libs/bootstrap/boot-business')); ?>
 <?php echo $this->fetch('script'); ?>
 <script type="text/javascript">
   var _gaq = _gaq || [];
