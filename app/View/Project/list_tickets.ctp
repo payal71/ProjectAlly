@@ -34,6 +34,7 @@ $role = $this->Session->read('role');
 	        			<th>Status</th>
 	        			<th></th>
 	        			<th></th>
+                        <th></th>
         			</tr>
         		</thead>
         	<?php
@@ -45,7 +46,9 @@ $role = $this->Session->read('role');
                             <?php echo $ticket['BugAndFeature']['id']; ?>
                         </td>
                         <td>
-                            <a href="#"><?php echo $ticket['BugAndFeature']['title']; ?></a>
+                        	<?php
+                             echo $this->Html->link($ticket['BugAndFeature']['title'], array('controller' => 'Project', 'action' => 'viewTicket', $ticket['BugAndFeature']['id']));
+                        	?>
                         </td>
                         <td>
                             <a href="#"><?php echo $assignedto[$ticket['BugAndFeature']['assigned_to']]; ?></a>
@@ -54,11 +57,26 @@ $role = $this->Session->read('role');
                             <?php echo $status[$ticket['BugAndFeature']['status']]; ?>
                         </td>
 						<td class="actions">
-							<a href="<?php echo $this->Html->url(array('action' => 'editTicket', $ticket['BugAndFeature']['id'])); ?>"><i class="icon-edit"></i> <strong>Edit</strong></a>
+							<a href="<?php echo $this->Html->url(array('action' => 'editTicket', $ticket['BugAndFeature']['id'], $projectid)); ?>"><i class="icon-edit"></i> <strong>Edit</strong></a>
 						</td>
 			            <td class="actions">
 							<a href="<?php echo $this->Html->url(array('action' => 'deleteTicket', $ticket['BugAndFeature']['id'], $projectid));?>"><i class="icon-remove"></i> <strong>Delete</strong></a>
 				        </td>
+                        <!--dropdown start-->
+                        <td>
+                            <div class="btn-group">
+                                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Action
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- dropdown menu links -->
+                                    <li><a>abc</a></li>
+                                    <li><a>xyz</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <!--dropdown end-->
                     </tr>
 				<!--         <div class="row">-->
 <!--	                <div class="span7">-->

@@ -9,13 +9,14 @@
 				echo $milestone['Milestone']['due_date'];
 				echo '<br/>';
 		
-			}
 		?>
+		<br/>
 		<div class="well">
 		<?php 
-			echo $this->element('comments/index', array('model' => 'Milestone', 'foreignKey' => '2'));
+			echo $this->element('comments/index', array('model' => 'Milestone', 'foreignKey' => $milestone['Milestone']['id']));
 		?>
 		</div>
+		<?php } ?>
 	</div>
 	
 </div>
