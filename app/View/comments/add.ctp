@@ -3,7 +3,7 @@ $divId = 'comment_add_'.$_model.'_'.$_foreignKey;
 ?>
 <div id="<?php echo $divId ?>">
 <?php 
-$this->Session->flash();
+//$this->Session->flash();
 ?>
 <?php
 /*if ( !empty($successful) ) {
@@ -13,16 +13,24 @@ $this->Session->flash();
 	)));
 }*/
 ?>
+<br/>
 <div class="comments form">
-<?php echo $this->Form->create('Comment', array('model' => 'Commentz', 'update' => $divId));?>
+<?php echo $this->Form->create('Comment', array('model' => 'Comment', 'update' => $divId));?>
 	<fieldset>
- 		<legend><?php __('Add Comment');?></legend>
-	<?php
+ 	<?php
+        $id_createdby = $this->Session->read('id');
 		echo $this->Form->input('model', array('type' => 'hidden'));
 		echo $this->Form->input('foreign_key', array('type' => 'hidden'));
-		echo $this->Form->input('comment');
+		echo $this->Form->input('comment', array('label' => false, 'rows' => '2', 'class' => 'input-block-level', 'placeholder' => 'Add Comment'));
+        echo $this->Form->input('creator_id',array('label' => false,
+            'type' => 'hidden',
+            'readonly' => 'readonly',
+            'value' => $id_createdby
+        ));
+		
+		
 	?>
 	</fieldset>
-<?php echo $this->Form->end('Submit');?>
+<?php echo $this->Form->submit('Submit', array('class' => 'btn btn-primary'));?>
 </div>
 </div>

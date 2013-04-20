@@ -1,176 +1,216 @@
-<?php 
-	echo $this->Html->script('jquery.validate.js');
-	echo $this->Html->script('validate.js');
-	echo $this->Html->script('unload.js');
-	echo $this->Html->css('jquery.validate.css');
-?>
-		<div class="row-fluid">
-			<div class="span6">
-				<!-- LOGIN FORM -->
-				  	<?php 
-					echo $this->Form->create('UserInfo',array('class' => 'form-horizontal',
-												'url' => array('controller' => 'Home',
-													'action' => 'authenticate')));
-					?>
-					<legend> Log in to Project<span style="color: #52a8ec"><strong>Ally</strong></span></legend>
-					<?php 
-					echo "<div class=\"control-group\">";
-						echo $this->Form->label('input_email', 'Email', array('class' => 'control-label'));
-						echo $this->Form->input('input_email',array('label' => false,
-																	'placeholder' => 'Email',
-																	'div' => array(
-																		'class' => 'controls'
-																		)
-																	));
-					echo "</div>";
-					echo "<div class=\"control-group\">";
-						echo $this->Form->label('input_password', 'Password', array('class' => 'control-label'));
-						echo $this->Form->input('input_password',array('label' => false,
-																  'placeholder' => 'Password',
-																  'type' => 'password',
-																  'div' => array(
-																	'class' => 'controls'
-																	)
-																   ));
-					echo "</div>";
-					echo "<div class=\"control-group\">";
-					echo "<div class=\"controls\">";
-					?>
-					<label class="checkbox">
-					<?php 
-					echo $this->Form->checkbox('Remember me',array('label' => false));
-						//echo " Remember me";	
-					echo "Remember Me </label>";
-						echo $this->Form->submit('Login',array('class' => 'btn'));
-						echo $this->Form->end();
-					echo "</div>";
-					echo "</div>";
-					?>		
-			</div>
-			<div class="span6">
-				<!-- REGISTRATION FORM -->
-				<?php
-				 $options = array(
-					'label' => false,
-					'div' => array(
-						'class' => 'controls'
-						)
-					);
-					
-					$user_role = array('0' => 'Select Role', '1' => 'Super Administrator', '2' => 'Administrator', '3' =>'Employee', '4' =>'User');
-				?>
-				
-					<?php echo $this->Form->create('Profile',array('class' => 'AdvancedForm',
-														'url' => array('controller' => 'Home',
-														'action' => 'index')));?>
-						<legend> Register with Project<span style="color: #52a8ec"><strong>Ally</strong></span></legend>
-					<table>
-					<tr>
-						<td align="right">Name</td>
-						<td><?php echo $this->Form->input('user_name',array('label' => false,
-																		   'type' => 'text')); ?>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">Company</td>
-						<td><?php echo $this->Form->input('company_name',array('label' => false,
-																		   'type' => 'text')); ?>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">Designation</td>
-						<td><?php echo $this->Form->input('user_role',array('label' => false,
-																		   'options' => $user_role)); ?>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">Email</td>
-						<td><?php echo $this->Form->input('input_email',array('label' => false,
-																		   'type' => 'text')); ?>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">Password</td>
-						<td><?php echo $this->Form->input('input_password',array('label' => false,
-																				'type' => 'password')); ?>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">Confirm Password</td>
-						<td><?php echo $this->Form->input('confirm_password',array('label' => false,
-																				'type' => 'password')); ?>
-						</td>
-					</tr>
-						<?php echo $this->Form->input('created',array('type' => 'hidden', 'value' => "CakeTime::format('Y-m-d H:i:s', time())")); ?>
-						<?php echo $this->Form->input('modified',array('type' => 'hidden', 'value' => "CakeTime::format('Y-m-d H:i:s', time())")); ?>
-					<tr>
-						<td></td>
-						<td><?php echo $this->Form->submit('Sign Up',array('class' => 'btn')); ?></td>
-					</tr>
-					
-					<?php echo $this->Form->end();?>
-				</table>
-				
-					
-					<?php 
-					
-					//at present model name isn't specified....it will be specified as per
-					//requirement.
-					/*echo $this->Form->create('',array('class' => 'form-horizontal'));
-					echo "<div class=\"control-group\">";
-						echo $this->Form->label('input_email', 'Email', array('class' => 'control-label'));
-						echo $this->Form->input('input_email',$options);
-					echo "</div>";
-					echo "<div class=\"control-group\">";
-						echo $this->Form->label('input_password', 'Password', array('class' => 'control-label'));
-						echo $this->Form->input('input_password',array('label' => false,
-																  'placeholder' => 'Password',
-																  'type' => 'password',
-																  'div' => array(
-																	'class' => 'controls'
-																	)
-																   ));
-					echo "</div>";
-					echo "<div class=\"control-group\">";
-					echo "<div class=\"controls\">";
-						//echo $this->Form->label(null,'Remember me',array('class' => 'checkbox'));
-					?>
-					<label class="checkbox">
-					<?php 
-					echo $this->Form->checkbox('Remember me',array('label' => false));
-						//echo " Remember me";	
-					echo "Remember Me </label>";
-						echo $this->Form->submit('Login',array('class' => 'btn'));
-						echo $this->Form->end();
-					echo "</div>";
-					echo "</div>";*/
-				?>
-				
-				
-				<!-- Form is commented and kept for reference -->
-				<!-- 
-				<form class="form-horizontal">
-				  <div class="control-group">
-				    <label class="control-label" for="input_email">Email</label>
-				    <div class="controls">
-				      <input type="text" id="input_email" placeholder="Email">
-				    </div>
-				  </div>
-				  <div class="control-group">
-				    <label class="control-label" for="input_password">Password</label>
-				    <div class="controls">
-				      <input type="password" id="input_password" placeholder="Password">
-				    </div>
-				  </div>
-				  <div class="control-group">
-				    <div class="controls">
-				      <label class="checkbox">
-				        <input type="checkbox"> Remember me
-				      </label>
-				      <button type="submit" class="btn">Sign in</button>
-				    </div>
-				  </div>
-				</form>
-				 -->
-			</div>
-		</div>
+      <!-- Start: slider -->
+      <div class="slider">
+        <div class="container-fluid">
+          <div id="heroSlider" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>TELL ABOUT YOUR BUSINESS AND CORPORATE.</h1>
+                      <p>
+                        We are Bootbusiness and we are awesome.We solve your technology problems by our awesome products.
+                        We are Bootbusiness and we are awesome.We solve your technology problems by our awesome products.
+                      </p>
+                      <h3>
+                        <a href="product.html" class="btn">Learn more</a>
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/placeholder.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>TELL ABOUT YOUR NATURE OF WORK</h1>
+                      <p>
+                        We are Bootbusiness and we design ultimate website applications.
+                        We are Bootbusiness and we design ultimate website applications.
+                      </p>
+                      <h3>
+                        <a href="service.html" class="btn">Learn more</a>
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/placeholder.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>TELL ABOUT YOUR PRODUCT</h1>
+                      <p>
+                        Get excited about our products.We build awesome products in mobile.
+                        We build awesome products in mobile.We build awesome products in mobile.
+                      </p>
+                      <h3>
+                        <a href="#" class="btn btn-primary">Buy now</a>
+                        <a href="product.html" class="btn">Learn more</a>
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/placeholder.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>TELL ABOUT YOUR ANOTHER PRODUCT</h1>
+                      <p>
+                        Get excited about our products.We build awesome products in mobile.
+                        We build awesome products in mobile.We build awesome products in mobile.
+                      </p>
+                      <h3>
+                        <a href="#" class="btn btn-primary">Buy now</a>
+                        <a href="product.html" class="btn">Learn more</a>
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/placeholder.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#heroSlider" data-slide="prev"> ‹ </a>
+            <a class="right carousel-control" href="#heroSlider" data-slide="next"> › </a>
+          </div>
+        </div>
+      </div>
+      <!-- End: slider -->
+      <!-- Start: PRODUCT LIST -->
+        <div class="container">
+          <div class="page-header">
+            <h2>Our products</h2>
+          </div>
+          <div class="row-fluid">
+            <ul class="thumbnails">
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Product name</h3>
+                    <p>
+                      Few attractive words about your product.Few attractive words about your product.
+                      Few attractive words about your product.Few attractive words about your product.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Buy now</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Product name</h3>
+                    <p>
+                      Few attractive words about your product.Few attractive words about your product.
+                      Few attractive words about your product.Few attractive words about your product.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Buy now</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Product name</h3>
+                    <p>
+                      Few attractive words about your product.Few attractive words about your product.
+                      Few attractive words about your product.Few attractive words about your product.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Buy now</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="page-header">
+            <h2>Our Services</h2>
+          </div>
+          <div class="row-fluid">
+            <ul class="thumbnails">
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Service title</h3>
+                    <p>
+                      Few attractive words about your service.Few attractive words about your service.
+                      Few attractive words about your service.Few attractive words about your service.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Try for free</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Service title</h3>
+                    <p>
+                      Few attractive words about your service.Few attractive words about your service.
+                      Few attractive words about your service.Few attractive words about your service.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Try for free</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
+                  <div class="caption">
+                    <h3>Service title</h3>
+                    <p>
+                      Few attractive words about your service.Few attractive words about your service.
+                      Few attractive words about your service.Few attractive words about your service.
+                    </p>
+                  </div>
+                  <div class="widget-footer">
+                    <p>
+                      <a href="#" class="btn btn-primary">Try for free</a>&nbsp;
+                      <a href="product.html" class="btn">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <!-- End: PRODUCT LIST -->

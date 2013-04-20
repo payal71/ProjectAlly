@@ -187,7 +187,11 @@
                 }
             }
         }
-		
+        
+		public function viewTicket($ticket_id = null){
+        	$this->set('tickets', $this->BugAndFeature->find('all', array('conditions' => array('BugAndFeature.id' => $ticket_id))));
+       	}
+        
         public function newTicket($proj_id = null) {
             $this->set('projectid', $proj_id);
             
