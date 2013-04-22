@@ -44,9 +44,9 @@
 		?>
 	</header>
 
-		<?php echo $this->Session->flash(); ?>
 		<div class="content">
 			<div class="container">
+			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 			</div>
 		</div>

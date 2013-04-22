@@ -51,7 +51,9 @@
 		<ul class="nav nav-tabs nav-stacked span3">
 		    <li><?php echo $this->Html->link('New Event', array('action' => 'event_add')); ?></li>
 			<li><?php echo $this->Html->link('Manage Events', array('action' => 'event')); ?></li>
+			<?php if($this->Session->read('role') == 1){?>
 			<li><?php echo $this->Html->link('Manage Events Types', array('action' => 'eventtype')); ?></li>
+			<?php }?>
 		</ul>
 	</div>
 </div>

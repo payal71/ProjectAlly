@@ -52,11 +52,10 @@ $this->Paginator->options(array(
 	</li>
 	<?php endforeach; ?>
 </ul>
-
 <div style="clear: both;"></div>
-	<div class="paging">
+	<div class="pager">
 		<?php echo $this->Paginator->prev('<< '.__('previous', true), array(), null, array('class'=>'disabled'));?>
-	 | 	<?php echo $this->Paginator->numbers();?>
+	  	<?php echo $this->Paginator->numbers();?>
 		<?php echo $this->Paginator->next(__('next', true).' >>', array(), null, array('class'=>'disabled'));?>
 	</div>
 	<?php

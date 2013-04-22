@@ -64,6 +64,9 @@
 					if($proUser['Profile']['user_role'] != 2){
 						echo $this->Html->link('Designate as Admin', array('action' => 'designateAdmin', $proUser['Profile']['id']), array('class' => 'btn btn-danger'));
 					}
+					elseif($proUser['Profile']['user_role'] == 2){
+						echo $this->Html->link('Revoke Admin rights', array('action' => 'revokeAdmin', $proUser['Profile']['id']), array('class' => 'btn btn-danger'));
+					}
 				}
 			}
 			?>

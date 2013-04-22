@@ -26,7 +26,9 @@
 	<div class="actions span6">
 		<ul class="nav nav-tabs nav-stacked span3">
 			<li><?php echo $this->Html->link('View Event Type', array('action' => 'eventtype_view', $this->Form->value('EventType.id'))); ?></li>
-			<li><?php echo $this->Html->link('Manage Event Types', array('action' => 'eventtype'));?></li>
+			<?php if($this->Session->read('role') == 1){?>
+			<li><?php echo $this->Html->link('Manage Events Types', array('action' => 'eventtype')); ?></li>
+			<?php }?>
 			<li><?php echo $this->Html->link('View Calendar', array('action' => 'viewCalendar')); ?></li>
 		</ul>
 	</div>

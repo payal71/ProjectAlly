@@ -62,7 +62,7 @@ class CommentsController extends AppController {
       	$this->Comment->delete($id);
        	if($model=='Milestone')
        		$this->redirect(array('controller' => 'Project', 'action' => 'viewMilestone', $redirect_id));
-       	elseif($act=='BugAndFeature')
+       	elseif($model=='BugAndFeature')
        		$this->redirect(array('controller' => 'Project', 'action' => 'viewTicket', $redirect_id));
     }
 }

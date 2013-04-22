@@ -35,8 +35,14 @@
 		}
 		
 		public function designateAdmin($id = null){
-			$this->Profile->updateAll(array('Profile.userRole' => '2'), array('Profile.id' => $id));
+			$this->Profile->updateAll(array('Profile.user_role' => '2'), array('Profile.id' => $id));
 			$this->Session->setFlash('User had been designated as Administrator', 'success');
+			$this->redirect(array('controller' => 'Employee', 'action' => 'viewProfile', $id));
+		}
+		
+		public function revokeAdmin($id = null){
+			$this->Profile->updateAll(array('Profile.user_role' => '3'), array('Profile.id' => $id));
+			$this->Session->setFlash('Administrator rights revoked', 'success');
 			$this->redirect(array('controller' => 'Employee', 'action' => 'viewProfile', $id));
 		}
 		
