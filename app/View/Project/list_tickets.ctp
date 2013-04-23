@@ -71,9 +71,12 @@ $role = $this->Session->read('role');
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- dropdown menu links -->
-                                    <li><a>abc</a></li>
-                                    <li><a>xyz</a></li>
-                                </ul>
+                                    <li>
+			                           <?php		                            
+			                           echo $this->Html->link('Attach Files', array('controller' => 'Project', 'action' => 'attachFiles', $ticket['BugAndFeature']['id']));
+					     			   ?>
+									</li>
+	                            </ul>
                             </div>
                         </td>
                         <!--dropdown end-->

@@ -287,7 +287,11 @@ class UploadComponent extends Component
 	    };
 	    // New name
 	    // New name consists of jointing a random number value - defined in the random_no() function - and the original file extension
-	    $final_value_b = "bug-id_".$this->bug_id."_".CakeTime::format('Y-m-d-H-i-s', time()).$final_value; 
+	    if($this->profile_pic_set == $this->Session->read('id')){
+    		$final_value_b = "profile_pic_".$this->Session->read('id').$final_value;
+			return $final_value_b;
+	    } 
+	    $final_value_b = "bug-id_".$this->bug_id."_".CakeTime::format('Y-m-d-H-i-s', time()).$final_value;
 	    return $final_value_b;
 	}
     
@@ -317,7 +321,7 @@ class UploadComponent extends Component
                 // Save on database
                 $this->UploadModel->save( $data );
 
-
+				
                 if ($append_file) {
                     file_put_contents(
                         $file_path,
